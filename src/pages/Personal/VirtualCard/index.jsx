@@ -1,8 +1,10 @@
 import React from "react";
 import SplitScreen from "../../../components/SplitScreen";
 import virtualCardImg from "../../../assets/virtual-card.png";
+import getDownloadAppUrl from "../../../utils/getDownloadAppUrl";
 
 const VirtualCard = () => {
+  const downloadURL = getDownloadAppUrl();
   return (
     <section className="virtual-card">
       <div className="container">
@@ -14,18 +16,20 @@ const VirtualCard = () => {
               </h3>
 
               <p data-aos="fade-up">
-                Experience effortless global payments with our Virtual Dollar
-                Card. Enjoy low exchange rates, no hidden fees, and a 99.99%
-                success rate. Works for all platforms.
+                Make global payments effortlessly with our Virtual Dollar Card.
+                Enjoy low exchange rates, no hidden fees, and a 99.99% success
+                rate--works for all platforms.
               </p>
 
-              <button
+              <a
                 data-aos="fade-up"
-                type="button"
+                role="button"
                 className="btn btn--primary"
+                href={downloadURL}
+                target="_blank"
               >
                 Download App
-              </button>
+              </a>
             </div>
 
             <div className="virtual-card__right" data-aos="fade-left">

@@ -20,6 +20,11 @@
       background-color: rgba($color: #ffb805, $alpha: 0.5);
       color: rgba($color: #0b0c0f, $alpha: 0.7);
     }
+
+    &:hover {
+      color: var(--black-500-base);
+      background-color: var(--yellow-400);
+    }
   }
 
   &--white {

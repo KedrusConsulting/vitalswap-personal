@@ -7,7 +7,8 @@ const features = [
   {
     image_url: payBillsIcon,
     title: "Pay Bills",
-    description: "Access services for day to day activities with ease",
+    description:
+      "Pay your utility bills, internet, cable TV, and insurance premiums all on one platform effortlessly.",
   },
 
   {

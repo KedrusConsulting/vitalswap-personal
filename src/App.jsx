@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 import AOS from "aos";
 import Loadable from "./components/Loadable";
+import getOS from "./utils/getDownloadAppUrl";
 
 const Personal = Loadable(lazy(() => import("./pages/Personal")));
 const Terms = Loadable(lazy(() => import("./pages/Terms")));

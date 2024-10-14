@@ -32,10 +32,10 @@ export function HeroSlide1() {
     <div className="hero__container hero__container--1">
       <div className="hero__text-box">
         <h1 className="heading--primary">
-          The easy way to swap and send your money.
+          The easy way to make payments globally.
         </h1>
         <p className="text__lg">
-          Send money easily to your friends and family around the world.
+          Send money easily to your friends and family in a few clicks.
         </p>
 
         <div className="hero__cta">

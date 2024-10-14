@@ -63,8 +63,11 @@ function FAQ({ data }) {
           <h2 className="heading--secondary">Frequently asked questions</h2>
           <p className="text--md">
             Everything you need to know about the product and billing. Can’t
-            find the answer you’re looking for? Please chat to our friendly
-            team.
+            find the answer you’re looking for? Please
+            <a className="text--link" href="#">
+              {" "}
+              chat to our friendly team.
+            </a>
           </p>
         </div>
 

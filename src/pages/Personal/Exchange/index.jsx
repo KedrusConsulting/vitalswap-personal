@@ -24,7 +24,7 @@ function Exchange() {
     <div className="exchange" id="rates">
       <div className="exchange__text-box">
         <h2 data-aos="fade-up" className="heading--secondary">
-          Get the best exchange rates
+          Explore unbeatable exchange rates
         </h2>
         <p data-aos="fade-up">Enjoy the best rates from the marketplace.</p>
 

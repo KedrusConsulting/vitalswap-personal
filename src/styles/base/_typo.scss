@@ -74,6 +74,11 @@ h6 {
     font-weight: 300;
     color: var(--text-secondary);
   }
+
+  &--link {
+    color: var(--text-secondary) !important;
+    text-decoration: underline !important;
+  }
 }
 
 .main--terms {

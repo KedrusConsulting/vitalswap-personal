@@ -123,12 +123,10 @@ function StepsSection() {
                 data-aos-duration="2000"
                 className="steps__card steps__card--active"
               >
-                <h4 className="heading--quad">
-                  1. Enter amount you wish to send
-                </h4>
+                <h4 className="heading--quad">Convert</h4>
                 <p>
-                  Once you sign up, add an amount you want to send, and hit the
-                  EasySend button.
+                  your local currency for your destination currency with
+                  VitalSwap EasySend for the best rates.
                 </p>
               </div>
 
@@ -150,13 +148,8 @@ function StepsSection() {
                 data-aos-duration="2000"
                 className="steps__card"
               >
-                <h4 className="heading--quad">
-                  2. Choose a destination currency
-                </h4>
-                <p>
-                  Select the destination currency, and VitalSwap EasySend will
-                  help you select the best rates in the market.
-                </p>
+                <h4 className="heading--quad">Select the recipient</h4>
+                <p>Choose personal expenses or an institution.</p>
               </div>
 
               <div
@@ -177,10 +170,10 @@ function StepsSection() {
                 data-aos-duration="2000"
                 className="steps__card"
               >
-                <h4 className="heading--quad">3. Send to recipients</h4>
+                <h4 className="heading--quad">Send</h4>
                 <p>
-                  Select send to yourself or someone else and funds will be
-                  delivered in seconds.
+                  your desired amount after signing up and hit the EasySend
+                  button to complete the process.
                 </p>
               </div>
 
