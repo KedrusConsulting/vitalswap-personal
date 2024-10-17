@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import NavLink from "../NavLink";
@@ -6,10 +6,30 @@ import getDownloadAppUrl from "../../utils/getDownloadAppUrl";
 
 function Navigation() {
   const [open, setOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
   const downloadURL = getDownloadAppUrl();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+
+      if (offset > 700) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+    1;
+  }, []);
+
   return (
-    <nav className="nav">
+    <nav className={`nav ${isSticky ? "nav__sticky" : ""}`}>
       <div className="container">
         <div className="navbar">
           <div className="navbar__logo">

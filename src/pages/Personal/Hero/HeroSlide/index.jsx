@@ -55,7 +55,7 @@ export function HeroSlide1() {
         </div>
       </div>
 
-      <div className="hero__img-box">
+      <div className="hero__img-box" data-aos="fade-left">
         <div className="layer-glow "></div>
         <img src={hero_img01} alt="Hero img" />
 
