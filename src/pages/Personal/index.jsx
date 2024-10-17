@@ -10,6 +10,7 @@ import FAQ from "../../components/FAQ";
 import Features from "./Features";
 
 import { faqDataPersonal } from "../../components/FAQ/faqData";
+import ScrollBackUp from "../../components/ScrollBackUp";
 
 const Blog = Loadable(lazy(() => import("./Blog")));
 const Exchange = Loadable(lazy(() => import("./Exchange")));
@@ -45,6 +46,8 @@ function Personal() {
         <Marketplace />
         <Footer />
       </main>
+
+      <ScrollBackUp />
     </>
   );
 }
