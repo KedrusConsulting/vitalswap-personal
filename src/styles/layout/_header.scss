@@ -123,11 +123,19 @@
       margin-top: 10vh;
       gap: 4.8rem;
       // overflow-x: hidden;
+
+      @include respond(phone) {
+        gap: 3.2rem;
+      }
     }
 
     &--1 {
       @include respond(phone) {
-        margin-top: 4vh;
+        margin-top: 2vh;
+      }
+
+      h1 {
+        font-size: clamp(4.8rem, 4.8vw, 5.6rem);
       }
     }
 
@@ -139,7 +147,7 @@
 
     &--3 {
       @include respond(phone) {
-        margin-top: 7vh;
+        margin-top: 2vh;
       }
     }
 
@@ -233,8 +241,6 @@
     @include respond(tablet) {
       grid-row: 2 / 3;
       grid-column: 1 / -1;
-
-      padding: 2vh 0;
     }
 
     img {

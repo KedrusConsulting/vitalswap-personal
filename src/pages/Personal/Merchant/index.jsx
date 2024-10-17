@@ -22,7 +22,7 @@ const Merchant = () => {
           <SplitScreen>
             <div className="open-dollar-account__left">
               <h3 data-aos="fade-right">
-                Get a Free Dollar Account and Get Same-Day Payments
+                Get a free dollar account and get same-day payments
               </h3>
               <p data-aos="fade-right">
                 Freelancers and gig workers can now receive payments instantly.

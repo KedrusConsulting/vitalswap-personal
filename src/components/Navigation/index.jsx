@@ -24,7 +24,7 @@ function Navigation() {
             <NavLink route="#rates" label="Our Rates" />
             <NavLink route="https://vitalswap.com/blog" label="Blog" />
             <NavLink route="#faq" label="FAQ" />
-            <NavLink route="#contact" label="Contact Us" />
+            <NavLink route="#get-in-touch" label="Contact Us" />
           </ul>
 
           <a

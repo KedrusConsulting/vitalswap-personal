@@ -16,7 +16,7 @@ const VirtualCard = () => {
               </h3>
 
               <p data-aos="fade-up">
-                Make global payments effortlessly with our Virtual Dollar Card.
+                Make global payments effortlessly with our virtual dollar card.
                 Enjoy low exchange rates, no hidden fees, and a 99.99% success
                 rate--works for all platforms.
               </p>
