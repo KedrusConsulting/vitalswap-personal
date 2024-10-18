@@ -35,7 +35,7 @@ function Marketplace() {
             <h3 className="heading--tertiary">It is easier in the app.</h3>
 
             <p>
-              Send money to friends and family. Make payments to merchants
+              Send money to friends and family. Make payments to business
               accross borders.
             </p>
 

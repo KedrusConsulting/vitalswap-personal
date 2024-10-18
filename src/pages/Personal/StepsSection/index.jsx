@@ -125,7 +125,7 @@ function StepsSection() {
               >
                 <h4 className="heading--quad">Convert</h4>
                 <p>
-                  your local currency for your destination currency with
+                  Select your local currency for your destination currency with
                   VitalSwap EasySend for the best rates.
                 </p>
               </div>
@@ -172,7 +172,7 @@ function StepsSection() {
               >
                 <h4 className="heading--quad">Send</h4>
                 <p>
-                  your desired amount after signing up and hit the EasySend
+                  Add your desired amount after signing up and hit the EasySend
                   button to complete the process.
                 </p>
               </div>
