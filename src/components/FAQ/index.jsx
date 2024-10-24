@@ -64,8 +64,7 @@ function FAQ({ data }) {
           <p className="text--md">
             Everything you need to know about the product and billing. Can’t
             find the answer you’re looking for? Please
-            <a className="text--link" href="#">
-              {" "}
+            <a className="text--link" href="#get-in-touch">
               chat to our friendly team.
             </a>
           </p>

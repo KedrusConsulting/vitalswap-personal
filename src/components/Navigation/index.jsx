@@ -42,7 +42,7 @@ function Navigation() {
           >
             <NavLink route="#how-it-works" label="How it Works" />
             <NavLink route="#rates" label="Our Rates" />
-            <NavLink route="https://vitalswap.com/blog" label="Blog" />
+            <NavLink route="https://blog.vitalswap.com" label="Blog" />
             <NavLink route="#faq" label="FAQ" />
             <NavLink route="#get-in-touch" label="Contact Us" />
           </ul>

@@ -48,10 +48,10 @@ function CurrencyConverter({ values, onChange }) {
 
     if (!swap) {
       // Dollar to Naira conversion
-      receive = +input * rate.iHaveDollarsIneedNaira;
+      receive = +input * (rate.iHaveDollarsIneedNaira || 0);
     } else {
       // Naira to Dollar conversion
-      receive = +input / rate.iHaveNairaIneedDollars;
+      receive = +input / (rate.iHaveNairaIneedDollars || 0);
     }
 
     setAmountToReceive(receive.toFixed(2));
@@ -64,13 +64,11 @@ function CurrencyConverter({ values, onChange }) {
 
     if (swap) {
       // Dollar to Naira conversion
-      send = rate.iHaveDollarsIneedNaira * +input;
+      send = (rate.iHaveDollarsIneedNaira || 0) * +input;
     } else {
       // Naira to Dollar conversion
-      send = +input / rate.iHaveNairaIneedDollars;
+      send = +input / (rate.iHaveNairaIneedDollars || 0);
     }
-
-    console.log(send);
 
     setAmountToSend(send.toFixed(2));
   };
@@ -91,7 +89,7 @@ function CurrencyConverter({ values, onChange }) {
 
       <div className="currency__flex">
         <div className="currency__rate">
-          <span>{`1 USD = ${rate?.iHaveDollarsIneedNaira} NGN`}</span>
+          <span>{`1 USD = ${rate?.iHaveDollarsIneedNaira || 0} NGN`}</span>
         </div>
 
         <div
@@ -107,7 +105,6 @@ function CurrencyConverter({ values, onChange }) {
 
       <CurrencyField
         label="Amount you receive"
-        // type="number"
         name="amountToReceive"
         id="amountToReceive"
         placeholder="0"

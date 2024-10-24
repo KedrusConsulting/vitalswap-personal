@@ -4,7 +4,7 @@ import logo from "../../assets/vitalswap-logo.svg";
 
 function Logo() {
   return (
-    <Link className="" to="/">
+    <Link to="/#">
       <div className="vitalswap-logo">
         <img src={logo} alt="Vitalswap Logo" />
       </div>

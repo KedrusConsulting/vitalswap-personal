@@ -2,7 +2,7 @@ import React from "react";
 import SplitScreen from "../../../components/SplitScreen";
 import openDollarAccountImg from "../../../assets/open-dollar-account-mockup.webp";
 import manageWalletimg from "../../../assets/manage-wallet-mockup.webp";
-import globalPaymentImg from "../../../assets/global-payment-mockup.webp";
+import globalPaymentImg from "../../../assets/Phone11-pro-back.webp";
 import getDownloadAppUrl from "../../../utils/getDownloadAppUrl";
 
 const Merchant = () => {
